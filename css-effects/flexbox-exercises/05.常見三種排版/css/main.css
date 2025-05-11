@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  background-color: #e7eeea;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.section1 .item {
+  width: 400px;
+  display: flex;
+}
+.section1 .item > img {
+  width: 50px;
+  height: 50px;
+}
+.section1 .item .text {
+  padding: 5px 10px;
+  color: #37523d;
+}
+.section1 .item .text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.section1 .item .text p {
+  font-size: 18px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.section2 .item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .item > img {
+  width: 100px;
+}
+.section2 .item h3,
+.section2 .item p {
+  color: #37523d;
+  margin-top: 15px;
+}
+.section2 .item h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.section2 .item p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.section3 {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.section3 .item {
+  display: flex;
+  align-items: center;
+}
+.section3 .item .text {
+  padding: 10px;
+}
+.section3 .item .text h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #37523d;
+  margin-top: 15px;
+}
+.section3 .item .text p {
+  font-size: 18px;
+  color: #37523d;
+  margin-top: 15px;
+}
+.section3 .item:nth-child(2) {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=main.css.map */

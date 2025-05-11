@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.outbox {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/*...................左側選單........................*/
+.leftmenu {
+  height: 100%;
+  border: 1px solid rgb(177, 214, 183);
+}
+.leftmenu .menu {
+  width: 300px;
+  text-align: center;
+  font-weight: 600;
+  border-top: 1px solid rgb(177, 214, 183);
+}
+.leftmenu .menu a {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(8, 102, 79);
+  padding: 10px;
+  transition: all 0.3s;
+}
+.leftmenu .menu a:hover {
+  background-color: rgb(177, 214, 183);
+}
+.leftmenu .top {
+  font-size: 26px;
+  background-color: rgb(8, 102, 79);
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+/*......................產品.........................*/
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .product_inf {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(8, 102, 79);
+}
+.product .product_inf .name_price {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.product .product_inf .name_price > span {
+  display: block;
+  width: 100%;
+  color: rgb(8, 102, 79);
+  margin: 0 auto;
+  padding: 10px;
+}
+.product .product_inf .name_price > span:first-child {
+  border-right: 1px solid rgb(8, 102, 79);
+}
+.product .product_inf .product_butten {
+  background-color: rgb(177, 214, 183);
+  font-size: 26px;
+  text-align: center;
+  color: white;
+}
+.product .product_inf .product_butten a {
+  display: block;
+  text-decoration: none;
+  color: rgb(8, 102, 79);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.product .product_inf .product_butten a:hover {
+  color: #fff;
+  background-color: rgb(8, 102, 79);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clip-path</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #14213d;
+    }
+
+    p {
+      font-size: 30px;
+    }
+
+    .container1,
+    .container2 {
+      text-align: center;
+      width: 70%;
+      height: 700px;
+      padding: 5%;
+    }
+
+    .container1 {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #fca311;
+      color: #e5e5e5;
+      clip-path: circle(10% at 10% 30%);
+    }
+
+    .container2 {
+      background-color: #14213d;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 第二層文字 -->
+  <div class="container1">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione nihil repellat molestiae atque quis rem
+      blanditiis, nesciunt dolorem incidunt ex repudiandae provident exercitationem saepe eum ullam sint facere
+      aliquam corrupti?
+      Esse et repellat vel voluptates veritatis magni necessitatibus. Tempore delectus modi animi qui natus ipsa
+      neque est in quos dolorum cumque iste nulla, assumenda minus perspiciatis sint dolor atque excepturi?
+      Expedita similique exercitationem veritatis a natus eaque et quibusdam explicabo corrupti, impedit aperiam
+      assumenda accusantium doloremque modi iusto excepturi debitis odio dolor, non labore nobis? Delectus qui ea
+      sint eum!
+    </p>
+  </div>
+  <!-- 表層文字 -->
+  <div class="container2">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione nihil repellat molestiae atque quis rem
+      blanditiis, nesciunt dolorem incidunt ex repudiandae provident exercitationem saepe eum ullam sint facere
+      aliquam corrupti?
+      Esse et repellat vel voluptates veritatis magni necessitatibus. Tempore delectus modi animi qui natus ipsa
+      neque est in quos dolorum cumque iste nulla, assumenda minus perspiciatis sint dolor atque excepturi?
+      Expedita similique exercitationem veritatis a natus eaque et quibusdam explicabo corrupti, impedit aperiam
+      assumenda accusantium doloremque modi iusto excepturi debitis odio dolor, non labore nobis? Delectus qui ea
+      sint eum!
+    </p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const container1 = document.querySelector('.container1');
+
+      container1.addEventListener('mousemove', function (e) {
+        const rect = container1.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        const clipPathValue = `circle(10% at ${x}% ${y}%)`;
+        container1.style.clipPath = clipPathValue;
+      });
+    });
+  </script>
+</body>
+
+</html>

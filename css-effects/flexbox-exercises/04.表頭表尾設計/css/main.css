@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e7eeea;
+  box-shadow: 0px 3px 5px 1px #ccc;
+  padding: 10px 30px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .menu a {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+main {
+  width: 720px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+main h1 {
+  color: #37523d;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+main img {
+  width: 100%;
+}
+
+footer {
+  background-color: #37523d;
+  padding: 15px;
+}
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+footer .menu a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}/*# sourceMappingURL=main.css.map */
