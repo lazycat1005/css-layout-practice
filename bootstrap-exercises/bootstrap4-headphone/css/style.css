@@ -1,0 +1,241 @@
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header {
+    background-image: url(../img/BG.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    letter-spacing: 6px;
+}
+
+h1:after {
+    display: block;
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.text-box {
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+
+.dividerCenter {
+    height: 2px;
+    width: 800px;
+    background-color: black;
+    margin: 15px auto;
+}
+
+.main {
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.imgBox1 {
+    background-image: url(../img/imgBox1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgBox2 {
+    background-image: url(../img/imgBox2.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgBox3 {
+    background-image: url(../img/imgBox3.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgDark {
+    background-color: black;
+    height: 350px;
+    padding: 55px;
+}
+
+.imgBox-text {
+    text-align: center;
+    padding-top: 260px;
+}
+
+.imgBox4 {
+    background-image: url(../img/imgBox4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bgGary {
+    background-color: rgb(90, 90, 90);
+}
+
+.title-text {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.Products-text:after {
+    display: block;
+    background-color: #fff;
+    content: "";
+    height: 1px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.opacity {
+    height: 320px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+.man1 {
+    background-image: url(../img/man2.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.man2 {
+    background-image: url(../img/man1.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.man3 {
+    background-image: url(../img/man4.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.man4 {
+    background-image: url(../img/man3.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.man5 {
+    background-image: url(../img/man5.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.man6 {
+    background-image: url(../img/man6.jpeg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.bgGary2 {
+    background-color: rgb(90, 90, 90);
+
+}
+
+.a1photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/a1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo1{
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo2{
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo3{
+    background-image: url(../img/p3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo4{
+    background-image: url(../img/p4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo5{
+    background-image: url(../img/p5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo6{
+    background-image: url(../img/p6.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo7{
+    background-image: url(../img/p7.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo8{
+    background-image: url(../img/p8.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+    integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>About Us</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="topmenu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img class="icon mr-2" src="icon/logo.svg" alt="">H.X.Y Tiles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              PRODUCT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="product.html">WALL</a>
+              <a class="dropdown-item" href="product.html">FLOOR</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">BATHROOM</a>
+              <a class="dropdown-item" href="#">KITCHEN</a>
+              <a class="dropdown-item" href="#">OUTDOOR</a>
+              <a class="dropdown-item" href="#">LIVING ROOM</a>
+              <a class="dropdown-item" href="#">BEDROOM</a>
+              <a class="dropdown-item" href="#">COMMERCIAL</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="cart-icon mt-1 mr-2 dropdown">
+            <a data-toggle="dropdown" class=" nav-link " href="#">
+              <img class="icon mr-2" src="icon/cart.svg" alt="">
+              <span class="cart-mark badge badge-pill badge-danger">10</span>Cart
+            </a>
+            <div class="dropdown-menu" style="min-width:340px;">
+              <div class="px-3 py-3">
+                <table class="table">
+                  <h6>cart menu</h6>
+                  <thead>
+                    <tr>
+                      <th scope="col">products</th>
+                      <th scope="col">number</th>
+                      <th scope="col">specification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Crosswood Chestnut</td>
+                      <td>20</td>
+                      <td>600*600mm</td>
+                    </tr>
+                    <tr>
+                      <td>Moonstone Frost</td>
+                      <td>150</td>
+                      <td>600*600mm</td>
+                    </tr>
+                    <tr>
+                      <td>Cotto Rouge Decor</td>
+                      <td>250</td>
+                      <td>300*600mm</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a class="btn btn-dark btn-block" href="cart.html">go to cart page</a>
+              </div>
+
+            </div>
+          </li>
+          <li class="mt-1 mr-2 "><a class="nav-link" href="#"><img class="icon mr-1" src="icon/map_b.svg" alt="">Store
+              Map</a></li>
+          <li class="mt-1 "><a class="nav-link" href="#"><img class="icon mr-2" src="icon/facebook-dark.svg"
+                alt="">facebook</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Carousel & Jumbotron-->
+  <div class="index-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="qq-item carousel-item active" style="background-image: url(img/livingroom.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">Hello!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style.</p>
+            <p>It uses utility classes for typography and spacing to space content out within the larger
+              container.</p>
+            <div>
+              <a class="btn btn-dark btn-lg " href="#" role="button">view more</a>
+            </div>
+          </div>
+        </div>
+        <div class="qq-item carousel-item" style="background-image: url(img/Web-Banner-Floor-Aug2020.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, exercitationem.</p>
+            <div>
+              <a class="btn btn-dark btn-lg " href="#" role="button">view more</a>
+            </div>
+          </div>
+        </div>
+        <div class="qq-item carousel-item" style="background-image: url(img/Web-Banner-Wall-Aug2020.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">2020 new!</h1>
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est consequuntur neque.</p>
+            <div>
+              <a class="btn btn-dark btn-lg " href="#" role="button">view more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- left pic -->
+  <section class="container-fluid py-5 bg-light text-black" style="position: relative;">
+    <div class="row">
+      <div class="col-md-5 bg-cover index-pic"></div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-end ">
+        <div class="col-md-7 bg-jumbotron">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quisquam aliquid provident
+            quibusdam placeat, corrupti architecto similique doloremque natus beatae, sapiente asperiores
+            delectus minima magni!</p>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quam?</p>
+            </div>
+            <div class="col-md-6">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sapiente maxime,
+                laudantium magnam autem natus accusamus reiciendis, maiores ratione quasi repellat
+                impedit. Totam deleniti temporibus enim neque rerum fugit repudiandae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Timeline-->
+  <div class="container-fluid pl-5 pr-5 mt-5 mb-5">
+    <h2 class="mb-5 text-center">Our Story</h2>
+    <div class="row timeline-section">
+      <div class="col-lg-2 timeline-point ">
+        <div class="col-lg-12 flex-grow-1">
+          <div style="background-image: url(img/about_pic2.jpeg);" class="about-box"></div>
+        </div>
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">1991</h3>
+          <h5 class="text-center">Start</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, rerum quos ducimus quod magni
+            porro?</p>
+        </div>
+      </div>
+      <div class="col-lg-2 timeline-point">
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">1998</h3>
+          <h5 class="text-center">Grow</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ut quis impedit quae asperiores
+            nam.</p>
+        </div>
+        <div class="col-lg-12">
+          <div style="background-image: url(img/about_pic1.jpeg);" class="about-box"></div>
+        </div>
+      </div>
+      <div class="col-lg-2 timeline-point">
+        <div class="col-lg-12">
+          <div style="background-image: url(img/about_pic6.jpeg);" class="about-box"></div>
+        </div>
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">2005</h3>
+          <h5 class="text-center">Alliance</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ut quis impedit quae asperiores
+            nam.</p>
+        </div>
+      </div>
+      <div class="col-lg-2 timeline-point">
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">2008</h3>
+          <h5 class="text-center">Expand</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ut quis impedit quae asperiores
+            nam.</p>
+        </div>
+        <div class="col-lg-12">
+          <div style="background-image: url(img/about_pic5.jpeg);" class="about-box"></div>
+        </div>
+      </div>
+      <div class="col-lg-2 timeline-point">
+        <div class="col-lg-12">
+          <div style="background-image: url(img/about_pic4.jpeg);" class="about-box"></div>
+        </div>
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">2015</h3>
+          <h5 class="text-center">Globalization</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ut quis impedit quae asperiores
+            nam.</p>
+        </div>
+      </div>
+      <div class="col-lg-2 timeline-point">
+        <div style="height: 350px;" class="col-lg-12">
+          <h3 class="text-center mt-3">2020</h3>
+          <h5 class="text-center">Future</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ut quis impedit quae asperiores
+            nam.</p>
+        </div>
+        <div class="col-lg-12">
+          <div style="background-image: url(img/about_pic3.jpeg);" class="about-box"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--right pic-->
+  <section class="container-fluid py-5 bg-light text-black" style="position: relative;">
+    <div class="row">
+      <div class="col-md-5 bg-cover index-pic2"></div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content">
+        <div class="col-md-7 bg-jumbotron">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quisquam aliquid provident
+            quibusdam placeat, corrupti architecto similique doloremque natus beatae, sapiente asperiores
+            delectus minima magni!</p>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere, quibusdam eius
+                sequi pariatur nemo excepturi accusantium consequuntur accusamus velit repudiandae
+                ducimus ipsa. Vitae autem nobis illum iste perspiciatis temporibus.</p>
+            </div>
+            <div class="col-md-6">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quam?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-3">
+          <h5 class="mb-4">H.X.Y Tiles Inc.</h5>
+          <ul class="list-unstyled">
+            <li>Address:Kaohsiung City 801, Taiwan</li>
+            <li>Phone:+886987654321</li>
+            <li>FAX:+886076543210</li>
+            <li>MAIL:HXY_Tiles@mail.com</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">APPLICATION</h5>
+          <ul class="list-unstyled">
+            <li><a class="foot-text" href="#">Floor Tiles</a></li>
+            <li><a class="foot-text" href="#">Wall Tiles</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">SPACES</h5>
+          <ul class="list-unstyled ">
+            <li><a class="foot-text" href="#">Bathroom Tiles</a></li>
+            <li><a class="foot-text" href="#">Kitchen Tiles</a></li>
+            <li><a class="foot-text" href="#">Living Room Tiles</a></li>
+            <li><a class="foot-text" href="#">Bedroom Tiles</a></li>
+            <li><a class="foot-text" href="#">Outdoor Tiles</a></li>
+            <li><a class="foot-text" href="#">Commercial Tiles</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">we are on</h5>
+          <a href="#"><img class="md-icon" src="icon/facebook-dark.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/ig-black.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/linkined-b.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/tw-b.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/line-b.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- copyright -->
+  <div class="copyright text-center">
+    2020 copyright H.X.Y Tiles Inc.
+  </div>
+
+  <!-- CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"
+    integrity="sha512-3KSCKtGNyFpYAh0N2MFQMqQSqGpHa7Cn5YC7yTjVbCQ2CBA1LfP/ZgID0TEq7IikLqn/jy3uoexY6RU5Eco7CQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha512-Dnsifi3EqNdBDaf7zM1TG7P00VGimvSF1QCUiI/xcoWdIzbIsPo5Wf2k5yI8PWMKBYneuqIEwUUCmbQTLAK1qg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"
+    integrity="sha512-igl8WEUuas9k5dtnhKqyyld6TzzRjvMqLC79jkgT3z02FvJyHAuUtyemm/P/jYSne1xwFI06ezQxEwweaiV7VA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Simple Blog Page</title>
+  <!-- CSS Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+    integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Main CSS -->
+  <style>
+    .breadcrumb {
+      background-color: transparent;
+    }
+
+    .text-color {
+      color: #00cc99;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- naverbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00cc99">
+    <img src="https://cdn-icons-png.flaticon.com/512/889/889084.png" style="width: 20px">
+
+    <a class="navbar-brand" href="#">Blog</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- breadcrumb -->
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb pl-0">
+        <li class="breadcrumb-item">
+          <a class="text-color" href="#">Home</a>
+        </li>
+
+        <li class="breadcrumb-item">
+          <a class="text-color" href="#">Library</a>
+        </li>
+
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-color">Bootstrap Blog</h1>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="my-2 text-secondary">
+          <small>
+
+            <span class="mr-3">
+              <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" style="width: 20px" />
+              William</span>
+
+            <span class="mr-3">2020/09/15</span>
+
+            <span>
+              <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" style="width: 20px" />
+              event
+            </span>
+          </small>
+        </div>
+
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ut
+            nobis quo temporibus sed quasi facere commodi enim obcaecati
+            voluptatum optio consequatur odio, at amet harum quibusdam
+            officiis necessitatibus? Repellendus.
+          </p>
+
+          <h2 class="text-color">Lorem ipsum dolor sit amet.</h2>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus quo earum deserunt laboriosam, excepturi illum
+            corporis ducimus vero officia praesentium eligendi adipisci
+            veritatis minus tempore quos illo voluptatibus, repellendus
+            obcaecati.
+          </p>
+
+          <ul>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur
+              <code>adipisicing elit</code>. Inventore voluptate delectus vel
+              excepturi. Cupiditate!
+            </li>
+            <li>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem reiciendis consectetur pariatur!
+            </li>
+          </ul>
+
+          <img class="img-fluid" src="img/bg.jpeg">
+        </article>
+
+        <div class="card">
+          <div class="card-header">Message</div>
+
+          <div class="card-body">
+            <div class="media mb-4">
+              <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" class="mr-3" style="width: 64px" />
+
+              <div class="media-body">
+                <h5 class="mt-0">Guest</h5>
+
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+
+                  <button class="btn btn-light btn-block mt-2">Send</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="media">
+              <img src="https://cdn-icons-png.flaticon.com/512/8944/8944558.png" class="mr-3" style="width: 64px" />
+              <div class="media-body">
+                <h5 class="mt-0">David</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h2 class="text-secondary">Tags</h2>
+        <span class="badge badge-info">
+          <img src="https://cdn-icons-png.flaticon.com/512/4305/4305629.png" style="width: 20px" />
+          Info
+        </span>
+
+        <span class="badge badge-info">
+          <img src="https://cdn-icons-png.flaticon.com/512/4305/4305629.png" style="width: 20px" />
+          bootstrap
+        </span>
+
+        <span class="badge badge-info">
+          <img src="https://cdn-icons-png.flaticon.com/512/4305/4305629.png" style="width: 20px" />
+          Blog
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-light py-4 mt-3">
+    <div class="container d-flex justify-content-between">
+      <div>copyright 2020</div>
+
+      <div>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/739/739237.png" style="width: 20px" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/220/220343.png" style="width: 20px" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" style="width: 20px" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+    integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"
+    integrity="sha512-7rusk8kGPFynZWu26OKbTeI+QPoYchtxsmPeBqkHIEXJxeun4yJ4ISYe7C6sz9wdxeE1Gk3VxsIWgCZTc+vX3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

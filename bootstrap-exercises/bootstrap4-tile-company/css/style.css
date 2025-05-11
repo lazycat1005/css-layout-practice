@@ -1,0 +1,241 @@
+.qq-item {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.opacity-1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 300px;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.img-effects {
+  overflow: hidden;
+}
+
+.img-effects img {
+  max-width: 100%;
+  transform: scale(1, 1);
+  transition: all 0.3s ease-out;
+}
+
+.img-effects img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.button-1 {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  display: block;
+}
+
+.button-1:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+}
+
+.overlay {
+  background-image: url(../img/overlaybg1.jpg);
+}
+
+.mailbox {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.mailbox-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 45px 0px 24px 0px;
+}
+
+.mailbox-form {
+  width: 415px;
+  height: 40px;
+  border: 0;
+}
+
+.mail-butten {
+  background-color: #3c3c3c;
+  color: #fff;
+  height: 40px;
+  border: 0;
+  padding: 5px;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: black;
+  background-color: #fff;
+}
+
+.md-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.foot-text {
+  color: black;
+}
+
+.foot-text:hover {
+  color: black;
+}
+
+.about-box {
+  height: 350px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline-section {
+  position: relative;
+}
+
+.timeline-section:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 49.5%;
+  height: 3px;
+  background-color: #000;
+  transform: translatey(-50%);
+}
+
+.timeline-point {
+  position: relative;
+}
+
+.timeline-point::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 49.3%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-color: #fff;
+  transform: translatex(-50%);
+  z-index: 1;
+}
+
+.Product-box {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.filter-btn {
+  border: 3px solid #000;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  background: transparent;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.filter-btn:hover {
+  border: 3px solid #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.index-pic {
+  background-image: url(../img/about1.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.index-pic2 {
+  background-image: url(../img/about2.jpg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-jumbotron {
+  background-color: rgba(252, 237, 237, 0.8);
+}
+.cart-icon {
+  position: relative;
+}
+
+.cart-mark {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.alert-rounded {
+  border-radius: 50px;
+}
+
+@media (min-width: 768px) {
+  .bg-jumbotron {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (max-width: 992px) {
+  .timeline-section:after,
+  .timeline-point:after {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .overlay-butten {
+    display: none;
+  }
+}

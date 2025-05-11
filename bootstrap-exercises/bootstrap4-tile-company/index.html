@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+    integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tiles</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="topmenu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img class="icon mr-2" src="icon/logo.svg" alt="">H.X.Y Tiles</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              PRODUCT
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="product.html">WALL</a>
+              <a class="dropdown-item" href="product.html">FLOOR</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">BATHROOM</a>
+              <a class="dropdown-item" href="#">KITCHEN</a>
+              <a class="dropdown-item" href="#">OUTDOOR</a>
+              <a class="dropdown-item" href="#">LIVING ROOM</a>
+              <a class="dropdown-item" href="#">BEDROOM</a>
+              <a class="dropdown-item" href="#">COMMERCIAL</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="cart-icon mt-1 mr-2 dropdown">
+            <a data-toggle="dropdown" class=" nav-link " href="#">
+              <img class="icon mr-2" src="icon/cart.svg" alt="">
+              <span class="cart-mark badge badge-pill badge-danger">10</span>Cart
+            </a>
+
+            <div class="dropdown-menu" style="min-width:340px;">
+              <div class="px-3 py-3">
+                <table class="table">
+                  <h6>cart menu</h6>
+                  <thead>
+                    <tr>
+                      <th scope="col">products</th>
+                      <th scope="col">number</th>
+                      <th scope="col">specification</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>Crosswood Chestnut</td>
+                      <td>20</td>
+                      <td>600*600mm</td>
+                    </tr>
+
+                    <tr>
+                      <td>Moonstone Frost</td>
+                      <td>150</td>
+                      <td>600*600mm</td>
+                    </tr>
+
+                    <tr>
+                      <td>Cotto Rouge Decor</td>
+                      <td>250</td>
+                      <td>300*600mm</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <a class="btn btn-dark btn-block" href="cart.html">go to cart page</a>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="mt-1 mr-2 ">
+            <a class="nav-link" href="#"><img class="icon mr-1" src="icon/map_b.svg" alt="">Store Map</a>
+          </li>
+
+          <li class="mt-1 ">
+            <a class="nav-link" href="#"><img class="icon mr-2" src="icon/facebook-dark.svg" alt="">facebook</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Carousel & Jumbotron-->
+  <div class="index-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="qq-item carousel-item active" style="background-image: url(img/livingroom.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">Hello!</h1>
+
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style.</p>
+            <p>It uses utility classes for typography and spacing to space content out within the larger
+              container.</p>
+            <div><a class="btn btn-dark btn-lg " href="#" role="button">view more</a></div>
+          </div>
+        </div>
+
+        <div class="qq-item carousel-item" style="background-image: url(img/Web-Banner-Floor-Aug2020.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">Welcome!</h1>
+
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, exercitationem.</p>
+            <div><a class="btn btn-dark btn-lg " href="#" role="button">view more</a></div>
+          </div>
+        </div>
+
+        <div class="qq-item carousel-item" style="background-image: url(img/Web-Banner-Wall-Aug2020.jpg)">
+          <div class="card p-4 opacity-1">
+            <h1 class="display-4">2020 new!</h1>
+
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est consequuntur neque.</p>
+            <div><a class="btn btn-dark btn-lg " href="#" role="button">view more</a></div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- header 1-->
+  <div class="container">
+    <div class="index-card mt-5">
+      <h2 class="text-center h1">Tiles by Space</h2>
+
+      <p class="text-center font-weight-light" style="font-size:18px;">Your spaces are a reflection of your
+        tastes. Find design inspiration right here! Whether you are looking for Kitchen tiles, Bathroom tiles or
+        tiles to spruce up your living room, your search ends here. Explore a wide variety of tile designs that
+        suit your requirements.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-1  justify-content-center">
+      <div class="col-md-6 col-lg-4 mt-5 ">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index01.jpg" alt="..."></a>
+        <h5 class="mt-4">BATHROOM TILES</h5>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mt-5 ">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index02.jpg" alt="..."></a>
+        <h5 class="mt-4">KITCHEN TILES</h5>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mt-5 ">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index03.jpg" alt="..."></a>
+        <h5 class="mt-4">LIVING ROOM TILES</h5>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mt-5">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index04.jpg" alt="..."></a>
+        <h5 class="mt-4">BEDROOM TILES</h5>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mt-5">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index05.jpg" alt="..."></a>
+        <h5 class="mt-4">OUTDOOR TILES</h5>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mt-5">
+        <a style="display: block ;" href="#" class="img-effects"><img src="img/index06.jpg" alt="..."></a>
+        <h5 class="mt-4">COMMERCIAL TILES</h5>
+      </div>
+    </div>
+
+    <div class="text-center mt-3"><a href="#" class="btn btn-outline-dark">View All Tiles</a></div>
+  </div>
+
+  <!-- card 2-->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-4">
+        <div>
+          <img src="img/index-m-01.jpg" class="card-img-top" alt="...">
+          <div>
+            <h5 class="h2">Tiles</h5>
+            <p style="height: 250px;" class="card-text p-1">Welcome to NITCO Tiles. Where inspiration is abound.
+              Choose over thousands of designs inspired by nature. Choose from different looks - wood,
+              marble, vintage, textured, natural, modern and more. Select your choice of tile finishes
+              from glazed to glossy, matte to rustic and much more. Welcome again, to the world of
+              innovation!</p>
+            <a href="#" class="button-1 mb-5">VIEW ALL PRODUCTS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-4">
+        <div>
+          <img src="img/index-m-02.jpg" class="card-img-top" alt="...">
+
+          <div>
+            <h5 class="h2">Marble</h5>
+            <p style="height: 250px;" class="card-text p-1">Bring home an exquisite piece of splendor! Explore
+              world's best quality marble sourced from the finest mines in Italy and around the globe.
+              Enjoy the uniqueness of materials such as marble, granite, onyx, and semi-precious stones,
+              transformed by NITCO into livable surfaces.</p>
+            <a href="#" class="button-1 mb-5">VIEW MARBLE</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-4">
+        <div>
+          <img src="img/index-m-03.jpg" class="card-img-top" alt="...">
+          <div>
+            <h5 class="h2">Mosaico</h5>
+            <p style="height: 250px;" class="card-text p-1">Don't settle for routine. Jazz up your spaces with
+              NITCO Mosaico. Check out an array of materials, textures & designs through our collections
+              that help you turn your ideas & dreams into reality. Whether you need your design to be
+              specially crafted in mosaic or have a customisation requirement, we can assist you.</p>
+            <a href="#" class="button-1 mb-5">VIEW MOSAICO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--overlay-->
+  <div class="overlay mt-5">
+    <div class="container">
+      <div class="row  d-flex justify-content-center">
+        <div class="col-sm col-md-4">
+          <p class="mailbox">Inbox</p>
+          <p class="mailbox">Inspiration</p>
+        </div>
+        <div class="col-sm col-md-6 mailbox-text">Trends & inspiration delivered straight to your inbox
+          <div>
+            <form class="form-inline mt-4">
+              <input class="mailbox-form" type="email" placeholder="Enter yoir email" aria-label="Enter yoir email">
+              <button class="mail-butten" type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="overlay-butten button-1 text-center" href="#">BACK TO TOP</a>
+
+  <!--footer-->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-3">
+          <h5 class="mb-4">H.X.Y Tiles Inc.</h5>
+          <ul class="list-unstyled">
+            <li>Address:Kaohsiung City 801, Taiwan</li>
+            <li>Phone:+886987654321</li>
+            <li>FAX:+886076543210</li>
+            <li>MAIL:HXY_Tiles@mail.com</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">APPLICATION</h5>
+          <ul class="list-unstyled">
+            <li><a class="foot-text" href="#">Floor Tiles</a></li>
+            <li><a class="foot-text" href="#">Wall Tiles</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">SPACES</h5>
+          <ul class="list-unstyled ">
+            <li><a class="foot-text" href="#">Bathroom Tiles</a></li>
+            <li><a class="foot-text" href="#">Kitchen Tiles</a></li>
+            <li><a class="foot-text" href="#">Living Room Tiles</a></li>
+            <li><a class="foot-text" href="#">Bedroom Tiles</a></li>
+            <li><a class="foot-text" href="#">Outdoor Tiles</a></li>
+            <li><a class="foot-text" href="#">Commercial Tiles</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="mb-3">we are on</h5>
+          <a href="#"><img class="md-icon" src="icon/facebook-dark.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/ig-black.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/linkined-b.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/tw-b.svg" alt=""></a>
+          <a href="#"><img class="md-icon" src="icon/line-b.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- copyright -->
+  <div class="copyright text-center">
+    2020 copyright H.X.Y Tiles Inc.
+  </div>
+
+  <!-- CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"
+    integrity="sha512-3KSCKtGNyFpYAh0N2MFQMqQSqGpHa7Cn5YC7yTjVbCQ2CBA1LfP/ZgID0TEq7IikLqn/jy3uoexY6RU5Eco7CQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha512-Dnsifi3EqNdBDaf7zM1TG7P00VGimvSF1QCUiI/xcoWdIzbIsPo5Wf2k5yI8PWMKBYneuqIEwUUCmbQTLAK1qg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"
+    integrity="sha512-igl8WEUuas9k5dtnhKqyyld6TzzRjvMqLC79jkgT3z02FvJyHAuUtyemm/P/jYSne1xwFI06ezQxEwweaiV7VA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
