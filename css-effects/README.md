@@ -6,7 +6,7 @@
 
 ### `animation-christmas-present`
 
-Youtube 頻道-Net Ninja -Build a CSS Christmas Present that Opens & Closes
+Youtube 頻道- Net Ninja - Build a CSS Christmas Present that Opens & Closes
 
 ### `background-attachment`
 

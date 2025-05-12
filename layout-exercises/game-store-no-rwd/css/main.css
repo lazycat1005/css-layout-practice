@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(10, 90, 57, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px #000;
+  padding: 15px;
+}
+nav > h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+nav > h1 > a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+nav > h1 > a:hover {
+  color: rgb(60, 214, 60);
+}
+nav ul {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  color: rgb(60, 214, 60);
+}
+
+/*Banner*/
+.banner {
+  height: 50vh;
+  background-color: rgba(100, 100, 100, 0.8);
+  background-blend-mode: multiply;
+  background-image: url(../img/Cover-1.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .banner-text {
+  padding: 100px 50px;
+}
+.banner .banner-text h2,
+.banner .banner-text h3 {
+  color: #fff;
+  font-size: 36px;
+  margin-top: 30px;
+}
+.banner .banner-text a {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: darkgreen;
+  padding: 20px 30px;
+  margin-top: 35px;
+  transition: all 0.3s;
+}
+.banner .banner-text a:hover {
+  background-color: rgb(1, 75, 1);
+}
+
+/*Content*/
+.hot-games {
+  padding: 25px;
+}
+.hot-games .title {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hot-games .title h2 {
+  font-size: 36px;
+  color: darkgreen;
+}
+.hot-games .title a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: darkgreen;
+  padding: 15px;
+}
+.hot-games .game-rank {
+  display: flex;
+}
+.hot-games .game-rank .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid darkgreen;
+  box-shadow: 0px 1px 10px #aaa;
+  margin: 25px;
+}
+.hot-games .game-rank .item > img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hot-games .game-rank .item h3 {
+  font-size: 20px;
+  color: darkred;
+  margin: 20px;
+}
+.hot-games .game-rank .item p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+/*compare*/
+.compare {
+  padding: 25px;
+}
+.compare .title {
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+.compare .title h2 {
+  font-size: 36px;
+  color: darkgreen;
+}
+.compare table {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 20px;
+}
+.compare table thead {
+  color: #fff;
+  background-color: darkgreen;
+}
+.compare table tbody tr:nth-child(2n) {
+  color: #fff;
+  background-color: darkseagreen;
+}
+.compare table td,
+.compare table th {
+  padding: 20px;
+}
+
+.menber {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px 0px;
+}
+.menber .text {
+  width: 35%;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #fff;
+  padding: 0 20px;
+}
+.menber .join {
+  width: 35%;
+  padding: 0 20px;
+}
+.menber .join form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.menber .join form label {
+  color: #fff;
+  font-size: 20px;
+}
+.menber .join form input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+}
+.menber .join form button {
+  font-size: 20px;
+  background-color: #009700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.copyright {
+  background-color: #003100;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 30px 100px;
+}
+.copyright .logo h2 a {
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+.copyright .icon a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */

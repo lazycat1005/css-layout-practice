@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Contact</title>
+  <!-- CSS Library -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body id="contact">
+  <div class="container">
+    <header class="header">
+      <a href="#">Minimalistic Website</a>
+    </header>
+    <nav class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <aside>
+      <h2>Side Bar</h2>
+    </aside>
+    <article class="main">
+      <h1>Contact</h1>
+
+      <form method="POST" accept="" id="form">
+        <p> <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </p>
+
+        <p> <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Your email" required>
+        </p>
+
+        <p> <label for="subject">Subject:</label>
+          <input type="text" name="subject" placeholder="Your subject" required>
+        </p>
+
+        <p> <label for="message">Message:</label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <button id="button" type="submit" name="submit">Send Message</button>
+        </p>
+      </form>
+    </article>
+
+    <footer>
+      &copy; 2020 Minimalistic Website &nbsp; <span class="separator">|</span> Design by Rex Wang <a
+        href="http://www.lazycat.pro">Rex Wang</a>
+    </footer>
+  </div>
+</body>
+
+</html>

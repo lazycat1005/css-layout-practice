@@ -10,7 +10,7 @@
 
 ### `bootstrap4-headphone`
 
-landingPage-耳機網站
+landingPage-耳機產品網站
 
 ### `bootstrap4-restaurant`
 
@@ -18,8 +18,12 @@ landingPage-耳機網站
 
 ### `bootstrap4-tile-company`
 
-資策會-磁磚網站切版
+資策會-磁磚網站切版練習
+
+### `bootstrap5-marketing-company`
+
+網路行銷公司廣告頁面
 
 ### `bootstrap5-wi-fi-machine-rental`
 
-wi-fi 機租借網克隆
+wi-fi 機租借網 clone
