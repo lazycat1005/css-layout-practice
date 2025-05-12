@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Image Gallery</title>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="min-h-screen flex justify-center items-center bg-rose-50">
+    <!-- 卡片內容 -->
+    <div class="relative flex flex-col bg-white shadow-2xl rounded-2xl space-y-10 m-6 lg:flex-row lg:space-y-0 lg:m-0">
+      <!-- 左側內容 -->
+      <div class="w-[500px] flex flex-col justify-between p-6 lg:p-10">
+        <!-- Top Content -->
+        <h2 class="font-mono mb-5 text-4xl font-bold">登入</h2>
+
+        <div class="flex flex-col">
+          <input type="text"
+            class="w-full py-3 px-1 border-b border-gray-300 rounded-md placeholder:font-light focus:outline-none"
+            placeholder="Enter your email address" />
+
+          <div class="flex flex-col justify-between items-center space-y-6 mt-10 lg:flex-row lg:space-y-0">
+            <div class="text-cyan-700">忘記密碼?</div>
+            <button
+              class="w-full lg:w-auto flex justify-center items-center p-3 space-x-4  text-white rounded-md shadow-lg px-9 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 border duration-150">
+              <span>下一步</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <line x1="13" y1="18" x2="19" y2="12" />
+                <line x1="13" y1="6" x2="19" y2="12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="mt-12 border-b border-b-gray-300"></div>
+          <p class="py-6 text-sm font-thin text-center text-gray-400">
+            使用其他方式登入
+          </p>
+          <div class="flex flex-col space-x-0 space-y-6 lg:flex-row lg:space-x-4 md:space-y-0">
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 duration-150 lg:w-1/2">
+              <img src="./img/facebook.png" alt="" class="w-9" />
+              <span class="font-thin">Facebook</span>
+            </button>
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 duration-150 lg:w-1/2">
+              <img src="./img/google.png" alt="" class="w-9" />
+              <span class="font-thin">Google</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <img src="./img/image.jpg" class="w-[430px] hidden lg:block" />
+
+      <!-- Close Button -->
+      <div
+        class="group w-10 h-10 absolute -top-5 right-4 flex justify-center items-center bg-gray-200 rounded-full cursor-pointer  lg:bg-white lg:top-4 hover:-translate-y-0.5 transition duration-150">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-black group-hover:text-gray-600" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Tailwind CSS - 股票交易頁面UI</title>
+</head>
+
+<body class="bg-dark">
+  <div class="container mx-auto px-4">
+    <!-- 上半部 -->
+    <header class="flex justify-between items-center h-[60px] mt-4">
+      <h1 class="font-mono text-xl font-extralight text-white">塊陶鴨金融</h1>
+      <ul class="hidden justify-between items-center text-white lg:flex">
+        <li class="mr-6 font-bold cursor-pointer text-sm">首頁</li>
+        <li class="mr-6 font-bold cursor-pointer text-sm">交易</li>
+        <li class="mr-6 font-bold cursor-pointer text-sm">帳戶</li>
+        <li>
+          <div class="bg-gray-400 rounded-full w-[40px] h-[40px] flex justify-center items-center">蛙</div>
+        </li>
+      </ul>
+    </header>
+    <!-- 下半部 -->
+    <div class="flex flex-wrap lg:flex-nowrap">
+      <!-- 左側 -->
+      <div class="w-full lg:w-[75%]">
+        <!-- 股票價格 -->
+        <div id="stockPriceBlock" class="w-full flex mt-4 overflow-x-scroll no-bar"></div>
+        <!-- 股票走勢圖 -->
+        <div class="w-full h-[500px] bg-card mt-4 p-4 shadow-2xl rounded-md">
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_03a59"></div>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+        <!-- 股票下單紀錄 -->
+        <div class="bg-card mt-4 shadow-2xl rounded-md overflow-scroll p-4 no-bar">
+          <table class="table-fixed text-white w-full">
+            <thead>
+              <tr>
+                <th>股票名稱</th>
+                <th>每股交易價格</th>
+                <th>狀態</th>
+                <th>成交數量</th>
+                <th>成交日期</th>
+              </tr>
+            </thead>
+            <tbody id="history" class="text-sm"></tbody>
+          </table>
+        </div>
+      </div>
+      <!-- 右側 -->
+      <div class="w-full mt-4 lg:w-[25%] lg:ml-4">
+        <!-- 下單介面 -->
+        <div class="bg-card w-full rounded-md p-4">
+          <div class="flex items-center">
+            <p class="text-white text-2xl font-bold">TPE:00900</p>
+            <p class="text-red-500 ml-4">+0.37%</p>
+          </div>
+          <p class="text-white">10.91</p>
+          <input type="text" class="w-full h-[50px] mt-4 bg-gray-700 border-transparent text-white" placeholder="價格">
+          <input type="text" class="w-full h-[50px] mt-4 bg-gray-700 border-transparent text-white" placeholder="股數">
+          <div class="flex mt-4 justify-between">
+            <button class="w-[48%] h-[50px] rounded-md bg-green-500 flex justify-center items-center text-white">
+              買入
+            </button>
+            <button class="w-[48%] h-[50px] rounded-md bg-red-500 flex justify-center items-center text-white">
+              賣出
+            </button>
+          </div>
+        </div>
+        <!-- 新聞區 -->
+        <div class="bg-card w-full rounded-md p-4 mt-4">
+          <p class="text-white text-2xl font-bold">財經新聞</p>
+          <div id="newsList"></div>
+          <button class="w-full mt-8 text-white text-sm">More+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+</body>
+
+</html>

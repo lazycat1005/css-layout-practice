@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Email Subscribe Card</title>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="h-screen flex items-center justify-center bg-zinc-700">
+    <div class="bg-zinc-800 rounded-2xl p-2">
+      <div class="flex flex-col rounded-xl lg:flex-row">
+        <img src="./img/image.jpg" class="h-80 object-cover rounded-xl hover:scale-105 duration-300 lg:h-70">
+        <div class="p-6 flex flex-col justify-between">
+          <h2 class="text-2xl text-center text-white lg:text-left">
+            高檔餐廳推薦指南
+          </h2>
+          <p class="max-w-xs my-4 text-md leading-6 text-center text-white lg:text-left">
+            每周嚴選高檔餐廳介紹,詳細評論各家特色料理與專業食評,讓您不再花大錢踩雷
+          </p>
+          <div class="flex flex-col mt-5 space-y-4 lg:space-x-3 lg:flex-row lg:space-y-0">
+            <input type="email" placeholder="輸入信箱地址免費訂閱"
+              class="p-2 px-4 rounded-md text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-md focus:outline-none lg:text-left ">
+            <button type="button"
+              class="px-5 py-3 text-md rounded-md bg-lime-500 text-zinc-800  hover:bg-lime-700 hover:text-white duration-300">訂閱</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
